@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title of the page -->
+        <title>
+            Simple To-Do List App 
+        </title>
+        <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    </head>
+<body>
+<div class="container">
+    <div class="todo-app">
+        <h2>To-Do List<img src="images/to-do_list.png"></h2> <!-- Header with an image -->
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text"> <!-- Input box for adding tasks -->
+            <button onclick="addTask()">Add</button> <!-- Button to add tasks, triggers addTask function -->
+        </div>
+        <ul id="list-container">
+            <!-- List items will be dynamically added here -->
+        </ul>
+    </div>
+</div>
+</body>
+<script src="script.js"></script> <!-- Link to the JavaScript file -->
+</html>
